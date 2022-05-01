@@ -1,0 +1,7 @@
+* {
+    background-color: #FFE8D6;
+}
+
+.flex-wrapper {
+    min-height: calc(100vh - 86px);
+}
