@@ -1,0 +1,22 @@
+.typer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blurb-container {
+    width: 100%
+}
+
+.robby-is {
+    font-size:xx-large;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.intro-container {
+    background-color: #35372F;
+}
