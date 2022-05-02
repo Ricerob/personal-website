@@ -3,3 +3,7 @@
     font-size: large;
     font-weight: 300;
 }
+
+.nav-link:hover {
+    background-color: #B7B7A4;
+}
