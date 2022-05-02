@@ -18,5 +18,9 @@
 }
 
 .intro-container {
-    background-color: #35372F;
+    background-color: #6B705C;
+}
+
+#home-selfie {
+    max-height: 400px;
 }
