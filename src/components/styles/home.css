@@ -2,6 +2,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Libre Baskerville';
 }
 
 .blurb-container {
@@ -11,6 +12,7 @@
 .robby-is {
     font-size:xx-large;
     text-align: center;
+    font-weight: 300;
 }
 
 .container {
@@ -25,6 +27,12 @@
     max-height: 400px;
 }
 
+h3 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
 p {
     font-size: large;
+    font-weight: 400;
 }

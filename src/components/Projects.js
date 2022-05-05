@@ -1,7 +1,8 @@
 import React from "react";
 import './styles/shared.css';
 import './styles/projects.css';
-import {Container, Row, Col, Card, Button} from 'react-bootstrap';
+import {Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
     return (
@@ -16,18 +17,9 @@ function Projects() {
             <Container className="github-cards-container">
                 <Row>
                     <Col>
-                        <Card style={{width: '18rem'}}>
-                            <Card.Img variant="top"/>
-                            <Card.Body>
-                                <Card.Title>Twitch Clip Grabber</Card.Title>
-                                <Card.Text>
-                                Python Script that interfaces with a web scraper to grab and download
-                                Twitch Clips.
-                                </Card.Text>
-                                <a href="https://github.com/Ricerob/twitchClipGrabber"target="_blank" rel="noreferrer noopener" >
-                                    <Button variant="Success">GitHub</Button></a>
-                            </Card.Body>
-                        </Card>
+                        <ProjectCard picture="python.png" title="Twitch Clip Grabber"
+                        text="Python Script that interfaces with a web scraper to grab and download
+                        Twitch Clips." githubLink="https://github.com/Ricerob/twitchClipGrabber"/>
                     </Col>
                 </Row>
             </Container>
