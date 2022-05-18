@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const NavCom = () => {
     return (
-        <Navbar sticky="top" className="py-0">
-            <Container className="justify-content-center">
+        <Navbar sticky="top" className="py-0" style={{backgroundColor: "#B7B7A4"}}>
+            <Container fluid className="justify-content-md-center">
                 <Nav>
                     <Link to="/" className="nav-link">Home</Link>
                     <Link to="/about" className="nav-link">About</Link>

@@ -1,8 +1,21 @@
 .button-bootstrap {
-    background-color: #6B705C;
+    background-color: #6B705C !important;
+    width: 98px !important;
 }
 
 .link-in-button {
     color: white;
     text-decoration: none;
+}
+
+.card-body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-con {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

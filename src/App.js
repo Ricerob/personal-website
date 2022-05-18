@@ -14,7 +14,7 @@ import BottomNav from './components/BottomNav';
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({once: true, mirror: true});
     AOS.refresh();
   }, []);
 

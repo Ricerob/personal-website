@@ -3,3 +3,13 @@
     justify-content: center;
     align-items: center;
 }
+
+h3 {
+    font-family: 'Libre Baskerville';
+    font-weight: 300;
+}
+
+#link-nothing {
+    text-decoration: none;
+    color: #6B705C;
+}
