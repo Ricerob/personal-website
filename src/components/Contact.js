@@ -52,7 +52,7 @@ function Contact() {
                     </Col>
                     <Col md="auto">
                     <Card style={{width: "20rem"}}>
-                            <Card.Title className="ps-3 mt-2"><Github width="26" height="26"></Github> E-Mail</Card.Title>
+                            <Card.Title className="ps-3 mt-2"><Github width="26" height="26"></Github> GitHub</Card.Title>
                             <Card.Subtitle className="ps-3 text-muted"><a className="no-dec" href="https://github.com/Ricerob">Ricerob</a></Card.Subtitle>
                             <Card.Body>While not a social platform, GitHub is a great place to see what I'm actually working on.</Card.Body>
                         </Card>
