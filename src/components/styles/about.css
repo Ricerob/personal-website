@@ -1,0 +1,10 @@
+#tech-selfie {
+    max-width: 100%;
+    height: auto;
+}
+
+#about-me {
+    max-height: 300px;
+    height: 100%;
+    width: auto;
+}

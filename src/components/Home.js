@@ -49,7 +49,7 @@ function Home() {
                         Feel free to snoop around to see my projects. Please reach out - I love meeting new people!
                     </p>
                     </Col>
-                    <Col xs lg="2">
+                    <Col xs lg="2" className="d-none d-md-block">
                     <Image fluid id="home-selfie" roundedCircle src="/selfie.JPG"></Image>
                     </Col>
                 </Row>

@@ -3,7 +3,7 @@ import { Card, Button, Container, Col, Row} from "react-bootstrap";
 
 const ProjectCard = ({ picture, title, text, githubLink, tech}) => {
     return(
-        <Card style={{width: '18rem'}}>
+        <Card style={{width: '18rem'}} className="mb-1">
             <Card.Img variant="top"/>
                 <Card.Body className="card-body">
                     <Row className="justify-content-center">

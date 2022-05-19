@@ -1,0 +1,17 @@
+h3 {
+    font-family: 'Libre Baskerville';
+    font-weight: 300;
+}
+
+.nav-link {
+    color: #35372F !important;
+}
+
+.no-dec {
+    text-decoration: none;
+    color: #6B705C;
+}
+
+a:hover {
+    color: black;
+}
