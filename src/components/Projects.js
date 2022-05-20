@@ -49,7 +49,7 @@ function Projects() {
                         tech="React, JavaScript, HTML, CSS"/>
                     </Col>
                     <Col md="auto" data-aos="fade-left">
-                        <ProjectCard picture="react-native.png" title="Personal Website"
+                        <ProjectCard picture="react-native.png" title="sidepot"
                         text="Simple app built to keep track of side pots in various games."
                         githubLink="https://github.com/Ricerob/sidepot" 
                         tech="React Native"/>
