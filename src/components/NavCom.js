@@ -11,6 +11,7 @@ const NavCom = () => {
                     <Link to="/" className="nav-link">Home</Link>
                     <Link to="/about" className="nav-link">About</Link>
                     <Link to="/projects" className="nav-link">Projects</Link>
+                    <a href="https://medium.com/@rehbudev" className="nav-link" target="_blank" rel="noreferrer">Medium</a>
                     <Link to="/contact" className="nav-link">Contact</Link>
                 </Nav>
             </Container>
